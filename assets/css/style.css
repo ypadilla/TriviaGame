@@ -1,0 +1,99 @@
+body{
+	background-image: url("../images/westerosback.jpg");
+	 
+
+}
+
+h1{
+	font-family: comic Sans MS;
+	color: white;
+
+}
+
+h2{
+	font-family: comic Sans MS;
+	color: white;
+}
+
+#questionBox{
+
+	background-image: url("..//images/quizpreview.jpg");
+	border-radius: 25px;
+	padding-top: 20px;
+	width: 75%;
+	text-align: center;
+	margin-top: 75px;
+	margin-left: 13%;
+	height: auto;
+	border: 2px gray solid;
+}
+
+
+
+
+
+button {
+	margin-top: 100px;
+	border:4px gray solid;
+	padding: 20px 35px;
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	font-family: comic Sans MS;
+	border-radius: 25px;
+	margin-right: 30px;
+}
+
+#timeClock {
+	font-size: 20px;
+	color: white;
+}
+
+
+.question {
+	color: white;
+	font-family: comic Sans MS;
+	font-size: 30px;
+}
+
+
+.answer{
+	color: white;
+	font-family: comic Sans MS;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input{
+	color: white;
+}
+
+audio {
+	width: 75%;
+}
+
+
+#timeClock{
+	color: white;
+	text-align: center;
+	position: fixed;
+	background-color: black;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: comic Sans MS;
+	margin-top: 20px;
+	opacity: .5;
+}
+
+#score{
+	font-family: comic Sans MS;
+	color: white;
+	background-color: black;
+	font-size: 30px;
+	width: 70%;
+	margin-left: 100px;
+	border: 5px gray solid;
+	border-radius: 25px;
+	margin-bottom: .5px;
+
+}

@@ -1,0 +1,164 @@
+		<!DOCTYPE html>
+		<html>
+		<head>
+			<title>Game of Thrones Trivia</title>
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		</head>
+		<body>
+
+<div id="timer"></div>
+						<br>
+						<div id="timeClock">
+
+						</div>
+						<br>
+			<div id="test">
+				<div id="questionBox">
+				<p id="score"></p>
+				<img src="assets/images/shame.gif">
+						<br>
+						<br>
+						<div id="timer"></div>
+						<br>
+						<div id="timeClock">
+
+						</div>
+						<br>
+						<div id="startButton">
+							<button>Start</button>
+						</div>
+						<form method="POST" name="gotquiz">
+							<div class="question">
+								1) Who held the door?</div>
+								<div class="answer">
+									<input type="radio" value="a" name="question1"> Hodor
+									<input type="radio" value="b" name="question1"> Bran
+									<input type="radio" value="c" name="question1"> Ned 
+									<input type="radio" value="d" name="question1"> The Three Eyed Raven <br>
+									<input id="ans1" type="hidden" value="a" />
+								</div>
+
+								<br>
+
+								<div class="question">
+									2) What are House Lannisters Words?</div>
+									<div class="answer">
+										<input type="radio" value="a" name="question2"> A Lannister always pays his debts 
+										<input type="radio" value="b" name="question2"> Hear me Roar 
+										<input type="radio" value="c" name="question2"> Unbowed, Unbent, Unbroken 
+										<input type="radio" value="d" name="question2"> Winter is Coming <br>
+										<input id="ans2" type="hidden" value="b" />
+									</div>
+
+									<br>
+
+									<div class="question">
+										3) What is Jon Snows Uncles name?</div>
+										<div class="answer">
+											<input type="radio" value="a" name="question3"> Jojen Stark 
+											<input type="radio" value="b" name="question3"> Ned Stark 
+											<input type="radio" value="c" name="question3"> Rob Stark 
+											<input type="radio" value="d" name="question3"> Bran Stark <br>
+											<input id="ans3" type="hidden" value="b" />
+										</div>
+
+										<br>
+
+										<div class="question">
+											4) Who killed the Mad King?</div>
+											<div class="answer">
+												<input type="radio" value="a" name="question4"> Robert Baratheon 
+												<input type="radio" value="b" name="question4"> Ned Stark 
+												<input type="radio" value="c" name="question4"> Jaime Lannister 
+												<input type="radio" value="d" name="question4"> Khal Drogo <br>
+												<input id="ans4" type="hidden" value="c" />
+											</div>
+
+											<br>
+
+											<div class="question">
+												5) What is Arya's direwolf's name?</div>
+												<div class="answer">
+													<input type="radio" value="a" name="question5"> Ghost 
+													<input type="radio" value="b" name="question5"> Nymeria 
+													<input type="radio" value="c" name="question5"> Lady 
+													<input type="radio" value="d" name="question5"> Shaggy Dog <br>
+													<input id="ans5" type="hidden" value="b" />
+												</div>
+
+												<br>
+
+												<div class="question">
+													6) What is The Hounds real name?</div>
+													<div class="answer">
+														<input type="radio" value="a" name="question6"> Sandor Clegane 
+														<input type="radio" value="b" name="question6"> Gregor Clegane 
+														<input type="radio" value="c" name="question6"> Martis Clegane 
+														<input type="radio" value="d" name="question6"> Gandor Clegane <br>
+														<input id="ans6" type="hidden" value="a" />
+													</div>
+
+													<br>
+
+													<div class="question">
+														7) Where is Theon Greyjoy from?</div>
+														<div class="answer">
+															<input type="radio" value="a" name="question7"> Pyke 
+															<input type="radio" value="b" name="question7"> The Fingers 
+															<input type="radio" value="c" name="question7"> Winterfell 
+															<input type="radio" value="d" name="question7"> Tarth <br>
+															<input id="ans7" type="hidden" value="a" />
+														</div>
+
+														<br>
+
+														<div class="question">
+															8) Valar Morghulis?</div>
+															<div class="answer">
+																<input type="radio" value="a" name="question8"> Wut 
+																<input type="radio" value="b" name="question8"> You know Nothing 
+																<input type="radio" value="c" name="question8"> Valar Doodooris
+																<input type="radio" value="d" name="question8"> Valar Dohaeris <br>
+																<input id="ans8" type="hidden" value="d" />
+															</div>
+
+															<br>
+
+															<div class="question">
+																9) Who is The Master of Whispers?</div>
+																<div class="answer">
+																	<input type="radio" value="a" name="question9"> Visrys 
+																	<input type="radio" value="b" name="question9"> Vicarys 
+																	<input type="radio" value="c" name="question9"> Varys
+																	<input type="radio" value="d" name="question9"> Vayrs <br>
+																	<input id="ans9" type="hidden" value="c" />
+																</div>
+
+																<br>
+
+																<div class="question">
+																	10) Who knows nothing?</div>
+																	<div class="answer">
+																		<input type="radio" value="a" name="question10"> You 
+																		<input type="radio" value="b" name="question10"> Me 
+																		<input type="radio" value="c" name="question10"> Jon Snow 
+																		<input type="radio" value="d" name="question10"> A man knows nothing <br>
+																		<input id="ans10" type="hidden" value="c" /> 
+																	</div>
+
+
+
+																</form>
+																<br>
+
+																<button id="ender">Done!</button>
+
+
+
+
+																<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+
+																<script type="text/javascript" src="assets/javascript/app.js"></script>
+																<audio autoplay><source src="assets/audio/gottheme.mp3" type="audio/mpeg"></audio>
+															</body>
+															</html>
